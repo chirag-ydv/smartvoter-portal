@@ -33,29 +33,24 @@ To run this project locally on your machine:
    ```bash
    git clone [https://github.com/chirag-ydv/smartvoter-portal.git](https://github.com/chirag-ydv/smartvoter-portal.git)
    cd smartvoter-portal
-Install dependencies:
-
+2. **Install dependencies:**
 Bash
 npm install
-Set up environment variables:
-Create a .env.local file in the root directory and add your API keys:
 
-Code snippet
+3. **Set up environment variables:**
+Create a .env.local file in the root directory and add your API keys:
 GROQ_API_KEY=your_groq_api_key
 NEWS_API_KEY=your_news_api_key
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 Run the development server:
 
-Bash
+4. **Bash**
 npm run dev
-Open http://localhost:3000 in your browser to see the application.
+
+5. Open http://localhost:3000 in your browser to see the application.
 
 🛡️ Failsafe Mechanisms & Graceful Degradation
 To ensure maximum reliability during high-traffic election days, this application features built-in API fallback systems. If third-party AI or News providers experience downtime, the system automatically degrades gracefully to serve localized, cached, or static fallback data without crashing the UI.
 
 Built with ❤️ for a stronger democracy.
-
-
-### Pro-Tip for your Viva 💡
-Make sure you replace `https://github.com/chirag-ydv/smartvoter-portal.git` in the README with your actual repository link before you commit it! Having a well-documented README like this proves to your examiners that you understand standard software engineering practices.
