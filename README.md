@@ -55,7 +55,3 @@ Open http://localhost:3000 in your browser to see the application.
 To ensure maximum reliability during high-traffic election days, this application features built-in API fallback systems. If third-party AI or News providers experience downtime, the system automatically degrades gracefully to serve localized, cached, or static fallback data without crashing the UI.
 
 Built with ❤️ for a stronger democracy.
-
-
-### Pro-Tip for your Viva 💡
-Make sure you replace `https://github.com/chirag-ydv/smartvoter-portal.git` in the README with your actual repository link before you commit it! Having a well-documented README like this proves to your examiners that you understand standard software engineering practices.
